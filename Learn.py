@@ -3,7 +3,8 @@ print(234)/*Integer
 print(3.789776)/*Float
 print("1655327") /*String 
 #comment
-print("what is your name")
-input("what is your name?")
+name = input("what's your name")
+print("hello", name)
+
 #variable is name
 
