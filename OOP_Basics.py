@@ -1,3 +1,41 @@
+# ===========================
+# Class: A class is a blueprint for creating objects.
+# A class encapsulates data for the object and defines methods that can be used to manipulate this data.
+# ===========================
+class Car:
+    # Constructor: Initializes the attributes of the object when the object is created
+    def __init__(self, brand, model, year):
+        self.brand = brand  # Attribute: brand of the car
+        self.model = model  # Attribute: model of the car
+        self.year = year    # Attribute: year of manufacturing
+        self.__mileage = 0  # Private attribute: mileage, cannot be directly accessed from outside
+
+    # Method: A function defined inside a class to perform operations on the object's data
+    def drive(self, miles):
+        # Method to simulate driving the car and increasing its mileage
+        if miles > 0:
+            self.__mileage += miles
+            print(f"The car has driven {miles} miles.")
+        else:
+            print("Miles must be positive.")
+
+    def get_mileage(self):
+        # Accessor method: Returns the current mileage of the car
+        return self.__mileage
+
+# ===========================
+# Objects: An object is an instance of a class. It's created by calling the class as if it were a function.
+# When you create an object, you use the class's constructor (__init__) to initialize the object’s attributes.
+# ===========================
+my_car = Car("Toyota", "Corolla", 2022)  # Creating an object of the class 'Car'
+
+# ===========================
+# Example: Using the Class and Object
+# ===========================
+print(f"Car details: Brand - {my_car.brand}, Model - {my_car.model}, Year - {my_car.year}")
+my_car.drive(100)  # Calling the 'drive' method on the object 'my_car'
+print(f"Current mileage of the car: {my_car.get_mileage()} miles")
+
 from abc import ABC, abstractmethod
 
 # ===========================
