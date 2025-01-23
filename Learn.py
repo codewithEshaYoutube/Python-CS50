@@ -1,4 +1,4 @@
-print("This is python") /*String 
+ print("This is python") /*String 
 print(234)/*Integer
 print(3.789776)/*Float
 print("1655327") /*String 
@@ -6,5 +6,5 @@ print("1655327") /*String
 name = input("what's your name")
 print("hello", name)
 
-#variable is name
+#variable is 
 
