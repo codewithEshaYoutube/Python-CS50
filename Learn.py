@@ -35,3 +35,10 @@ def print_sum_numbers():
   print(float(first) + float(second))
 
 print_sum_numbers()
+#Functions and methods
+
+course= "This is beginner course by Esha Tariq"
+print (course.upper())
+print (course.lower())
+print (course.casefold())
+print (course.capitalize())
