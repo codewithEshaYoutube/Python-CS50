@@ -22,3 +22,8 @@ print_patient_details()
 
 name = input("What is your Name")
 print ("Hello Greetings"+ name)
+
+# Age Calculation function by Esha Tariq
+birth_year= input("what is your birth year")
+age = 2025 - int(birth_year) # str to int conversion
+print (age)
