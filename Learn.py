@@ -72,3 +72,30 @@ and : only true if both true
 or : atleast one is true
 not:inverse of value
 """
+x= 4
+print(x>3 and x<2)
+print(x>3 or x<2)
+print(not x<2)
+
+# conditional statements
+#while loop
+i=1
+while i<1_0:
+  print (i*"↓")
+  i=i+1
+  
+e=1
+while e<1_0:
+  print (e*"↑")
+  e=e+1
+#list and lists methods
+numbers=[1,2,3,4,5,6]
+numbers.append(7)
+numbers.insert(0,5)
+
+numbers.remove(2)
+numbers.clear
+print (len(numbers))
+print (1 in numbers)
+print(numbers)
+#For loops
