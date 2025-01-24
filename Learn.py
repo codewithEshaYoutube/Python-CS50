@@ -37,8 +37,38 @@ def print_sum_numbers():
 print_sum_numbers()
 #Functions and methods
 
-course= "This is beginner course by Esha Tariq"
+course= "This is  python beginner course by Esha Tariq"
 print (course.upper())
 print (course.lower())
 print (course.casefold())
 print (course.capitalize())
+print (course.find("is"))
+print (course.find("This"))
+print (course.replace("by","with"))
+print ("python"in course)
+
+#Arthimetic Operators
+print(4+3)#addition
+print(4-3)#subtract
+print(4*3)#multiply
+print(4/3)#divide
+print(4//3)#divide and round off ans
+print(4%3) #remainder 
+print(4**3) #power of number
+x=99
+# x= x-3
+x -= 3 #augumented assignment operator
+print(x)
+"""
+Comparison operators
+> greater
+< less than 
+>= greater equal
+<= less than equal
+!= not equal
+== equal
+logical Operators
+and : only true if both true
+or : atleast one is true
+not:inverse of value
+"""
