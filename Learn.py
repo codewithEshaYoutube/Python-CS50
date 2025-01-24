@@ -90,12 +90,11 @@ while e<1_0:
   e=e+1
 #list and lists methods
 numbers=[1,2,3,4,5,6]
-numbers.append(7)
-numbers.insert(0,5)
+numbers.append(7)    #add in order
+numbers.insert(0,5)  #insert in between
 
 numbers.remove(2)
 numbers.clear
 print (len(numbers))
 print (1 in numbers)
 print(numbers)
-#For loops
