@@ -8,5 +8,17 @@ print("hello", name)
 
 #variable is name 
 
-age = 22
-print (age)
+
+patient_name = "john"
+age = 20
+New_patient = "True"
+
+def print_patient_details():
+    print(f"Patient Name :{patient_name }")
+    print(f"Patient Age :{age }")
+    print(f"New Patient :{New_patient}")
+
+print_patient_details()
+
+name = input("What is your Name")
+print ("Hello Greetings"+ name)
