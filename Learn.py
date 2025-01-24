@@ -27,3 +27,11 @@ print ("Hello Greetings"+ name)
 birth_year= input("what is your birth year")
 age = 2025 - int(birth_year) # str to int conversion
 print (age)
+# float
+first = input ("First:")
+second = input ("Second:")
+ 
+def print_sum_numbers():
+  print(float(first) + float(second))
+
+print_sum_numbers()
