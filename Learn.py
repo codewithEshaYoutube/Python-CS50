@@ -98,3 +98,39 @@ numbers.clear
 print (len(numbers))
 print (1 in numbers)
 print(numbers)
+   # A compiler translates the entire source code into machine code at once,
+# producing an executable file. This file can then be run independently.
+# Example: C, C++, Java (Java compiles to bytecode which is interpreted by the JVM)
+
+# A Python interpreter, on the other hand, translates the code line by line, 
+# executing each instruction immediately.
+
+# Let's write a simple Python code to demonstrate an interpreter's behavior.
+
+# Sample Python code (this would be executed by an interpreter):
+print("Hello, World!")  # This line will be executed immediately
+
+# Now, let's compare the compiler and interpreter in comments.
+
+# Compiler (e.g., C compiler):
+# - Translates the entire code at once, producing an output file.
+# - Errors are detected after the entire code is compiled.
+# - Slower execution during the compilation phase but faster runtime.
+
+# Interpreter (e.g., Python interpreter):
+# - Translates the code line by line and executes it immediately.
+# - Errors are detected during execution, at the point where they occur.
+# - Slower execution overall, because code is being translated on the fly.
+
+# For instance, in C, you would compile the code, and only after the compilation process,
+# you would know if there are any errors.
+# In Python, you can execute code line by line, and errors will be caught immediately.
+
+# Example Python code execution (interpreter behavior):
+def greet(name):
+    print(f"Hello, {name}!")  # This will execute immediately when called
+
+greet("Alice")  # Interpreter runs this line immediately and outputs: "Hello, Alice!"
+
+# In comparison, with a compiler (like C), you would write the code, compile it, and 
+# only see output after running the compiled executable.
