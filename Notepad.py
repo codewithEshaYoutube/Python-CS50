@@ -4,5 +4,4 @@ print(course[-1])
 print(course[-3])
 print(course[3])
 print(course.upper())
-
-print(course[0])
+print(course.lower())
