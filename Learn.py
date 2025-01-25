@@ -130,7 +130,7 @@ print("Hello, World!")  # This line will be executed immediately
 def greet(name):
     print(f"Hello, {name}!")  # This will execute immediately when called
 
-greet("Alice")  # Interpreter runs this line immediately and outputs: "Hello, Alice!"
+greet("Alice")  # Interpreter runs this line immediately and outputs: "Hello, Alice!"  
 
-# In comparison, with a compiler (like C), you would write the code, compile it, and 
+# In comparison, with a compiler (like C), you would write the code, compile it
 # only see output after running the compiled executable.
