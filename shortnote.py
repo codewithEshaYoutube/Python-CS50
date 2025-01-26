@@ -6,7 +6,7 @@ z = 3.14        # Float
 print(x, y, z)  # Output: 10 Hello! 3.14
 
 # 2. Control Flow (If-Else Statements)
-# If-Else statements control the program's execution based on conditions.
+
 if x > 5:
     print("x is greater than 5")  # This will run because x is 10.
 else:
