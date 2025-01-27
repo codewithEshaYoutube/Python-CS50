@@ -1,3 +1,14 @@
+# NOTE:
+# This script is best run in an interactive environment like:
+# - Jupyter Notebook (https://jupyter.org/)
+# - Google Colab (https://colab.research.google.com/)
+# These platforms allow you to run code step-by-step, visualize plots, and explore datasets easily.
+#
+# To run the code in Google Colab or Jupyter Notebook:
+# 1. Open the link (Google Colab or Jupyter Notebook).
+# 2. Create a new Python notebook.
+# 3. Copy-paste this entire code into a cell.
+# 4. Run the cell by pressing Shift+Enter.
 # Import necessary libraries for data analysis and visualization
 import pandas as pd            # Pandas is used for data manipulation
 import matplotlib.pyplot as plt # Matplotlib is used for creating visualizations
