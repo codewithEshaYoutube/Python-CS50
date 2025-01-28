@@ -12,4 +12,7 @@ print(4*6)
 print(4*6+6)#Bodmas Rule  (Bracket of Division,Multiplication,addition,Substraction)
 
 
-variable_name = value
+#Vairables
+salary = 10000
+print(salary)
+print("salary")
