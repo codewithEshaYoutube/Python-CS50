@@ -25,5 +25,5 @@ Runtime result:
 The slowest run took 16.13 times longer than the fastest. This could mean that an intermediate result is being cached.
 327 µs ± 216 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
 
-
 """
+type(Total_salary)
