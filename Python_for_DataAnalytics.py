@@ -27,3 +27,6 @@ The slowest run took 16.13 times longer than the fastest. This could mean that a
 
 """
 type(Total_salary)
+title = "Dick Johnson Is Dead"
+print(title)
+type(title)
