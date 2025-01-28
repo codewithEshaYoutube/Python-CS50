@@ -12,3 +12,4 @@ print(4*6)
 print(4*6+6)#Bodmas Rule  (Bracket of Division,Multiplication,addition,Substraction)
 
 
+variable_name = value
