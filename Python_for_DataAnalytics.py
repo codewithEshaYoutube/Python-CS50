@@ -30,3 +30,4 @@ type(Total_salary)
 title = "Dick Johnson Is Dead"
 print(title)
 type(title)
+help (int)
