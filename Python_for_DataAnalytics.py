@@ -16,3 +16,7 @@ print(4*6+6)#Bodmas Rule  (Bracket of Division,Multiplication,addition,Substract
 salary = 10000
 print(salary)
 print("salary")
+base_salary = 10000
+bonus_rate = 1.7
+Total_salary = (base_salary)*(1+ bonus_rate)
+print(Total_salary)
