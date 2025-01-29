@@ -47,3 +47,9 @@ def print_patient_details():
 
 print_patient_details()
 
+# Numeric Modules
+salary_employee =[22,45,789,789,888]
+import statistics
+print(statistics.mean(salary_employee))
+print(statistics.mode(salary_employee))
+print(statistics.median(salary_employee))
