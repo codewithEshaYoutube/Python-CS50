@@ -53,3 +53,5 @@ import statistics
 print(statistics.mean(salary_employee))
 print(statistics.mode(salary_employee))
 print(statistics.median(salary_employee))
+import pandas as pd
+df = pd.read_csv('netflix_titles.csv')
