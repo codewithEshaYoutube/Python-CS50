@@ -31,10 +31,19 @@ title = "Dick Johnson Is Dead"
 print(title)
 type(title)
 help (int)
-import pandas as pd
+patient_name = "Zahid"
+patient_age = 25
+patient_is_new = True
+patient_health_is_critical = True
+def print_patient_details():
+  print(f"Patient Details:")
+  print(f"Patient Name:{patient_name}")
+  print(f"Patient Age:{patient_age}")
+  print(f"Patient Is New:{patient_is_new}")
+  print(f"Patient Health is critical:{patient_health_is_critical} ")
 
-# Loading a CSV file into a DataFrame
-df = pd.read_csv('student_data.csv')
 
-# Preview the first 5 rows of the data
-print(df.head())
+
+
+print_patient_details()
+
