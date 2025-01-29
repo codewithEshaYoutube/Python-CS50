@@ -31,3 +31,10 @@ title = "Dick Johnson Is Dead"
 print(title)
 type(title)
 help (int)
+import pandas as pd
+
+# Loading a CSV file into a DataFrame
+df = pd.read_csv('student_data.csv')
+
+# Preview the first 5 rows of the data
+print(df.head())
