@@ -98,3 +98,178 @@ def merge(left, right):
 # - O(n log n): Linearithmic time
 
 # Big O Notation is essential for analyzing the performance of algorithms and understanding their scalability.
+# 1. Array (List in Python)
+# Time Complexity:
+# - Access: O(1)
+# - Search (Unsorted): O(n)
+# - Insert/Delete (end): O(1), O(n) for arbitrary positions
+
+# Example 1: Accessing an element
+arr = [1, 2, 3, 4, 5]
+print(arr[2])  # O(1) time complexity
+
+# Example 2: Searching for an element
+def linear_search(arr, target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i
+    return -1
+
+print(linear_search(arr, 3))  # O(n) time complexity
+
+# Example 3: Inserting an element at the end
+arr.append(6)  # O(1) time complexity
+print(arr)
+
+# 2. Linked List
+# Time Complexity:
+# - Access: O(n)
+# - Insert/Delete (front): O(1)
+# - Insert/Delete (end): O(n) unless you maintain a tail pointer
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+    
+    def insert_at_front(self, data):
+        new_node = Node(data)
+        new_node.next = self.head
+        self.head = new_node  # O(1) time complexity
+    
+    def display(self):
+        temp = self.head
+        while temp:
+            print(temp.data, end=" -> ")
+            temp = temp.next
+        print()
+
+# Example 1: Inserting at the front
+ll = LinkedList()
+ll.insert_at_front(1)  # O(1)
+ll.insert_at_front(2)  # O(1)
+ll.display()  # Output: 2 -> 1 ->
+
+# 3. Hash Table (Dictionary in Python)
+# Time Complexity:
+# - Insert/Search/Delete: O(1) average, O(n) worst case (with collisions)
+
+# Example 1: Inserting/Search/Delete in a dictionary
+hash_table = {}
+hash_table["a"] = 1  # O(1) average time complexity
+hash_table["b"] = 2  # O(1)
+print(hash_table["a"])  # O(1)
+del hash_table["b"]  # O(1)
+print(hash_table)
+
+# 4. Binary Search Tree (BST)
+# Time Complexity:
+# - Search/Insert/Delete (balanced): O(log n)
+# - Worst case (unbalanced): O(n)
+
+class BSTNode:
+    def __init__(self, key):
+        self.left = None
+        self.right = None
+        self.value = key
+
+class BST:
+    def __init__(self):
+        self.root = None
+    
+    def insert(self, root, key):
+        if root is None:
+            return BSTNode(key)
+        if key < root.value:
+            root.left = self.insert(root.left, key)
+        else:
+            root.right = self.insert(root.right, key)
+        return root
+
+    def search(self, root, key):
+        if root is None or root.value == key:
+            return root
+        if key < root.value:
+            return self.search(root.left, key)
+        return self.search(root.right, key)
+
+# Example 1: Insert into BST
+bst = BST()
+root = None
+root = bst.insert(root, 10)
+root = bst.insert(root, 20)
+root = bst.insert(root, 5)
+print(bst.search(root, 20))  # O(log n) time complexity if balanced
+
+# 5. Queue (Using List as a Queue)
+# Time Complexity:
+# - Enqueue (append): O(1)
+# - Dequeue (pop from front): O(n)
+
+from collections import deque
+
+queue = deque()
+queue.append(1)  # O(1)
+queue.append(2)  # O(1)
+print(queue.popleft())  # O(1) for deque, O(n) for list
+
+# 6. Sorting Algorithms
+# Time Complexity for Merge Sort: O(n log n), Space Complexity: O(n)
+# Time Complexity for Bubble Sort: O(n^2), Space Complexity: O(1)
+
+# Example 1: Merge Sort (O(n log n) time complexity, O(n) space complexity)
+def merge_sort(arr):
+    if len(arr) > 1:
+        mid = len(arr) // 2  # Finding the mid
+        left_half = arr[:mid]  # Dividing the elements into 2 halves
+        right_half = arr[mid:]
+
+        merge_sort(left_half)  # Sorting the first half
+        merge_sort(right_half)  # Sorting the second half
+
+        i = j = k = 0
+
+        # Merging the sorted halves
+        while i < len(left_half) and j < len(right_half):
+            if left_half[i] < right_half[j]:
+                arr[k] = left_half[i]
+                i += 1
+            else:
+                arr[k] = right_half[j]
+                j += 1
+            k += 1
+
+        # Checking if any element was left
+        while i < len(left_half):
+            arr[k] = left_half[i]
+            i += 1
+            k += 1
+
+        while j < len(right_half):
+            arr[k] = right_half[j]
+            j += 1
+            k += 1
+
+# Example 2: Bubble Sort (O(n^2) time complexity)
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+
+# Testing Merge Sort
+arr = [12, 11, 13, 5, 6, 7]
+merge_sort(arr)
+print("Sorted array with Merge Sort:", arr)
+
+# Testing Bubble Sort
+arr2 = [64, 34, 25, 12, 22, 11, 90]
+bubble_sort(arr2)
+print("Sorted array with Bubble Sort:", arr2)
+
+
