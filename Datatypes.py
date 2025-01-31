@@ -1,4 +1,4 @@
-# Introduction to Data Types in Python
+   # Introduction to Data Types in Python
 
 # 1. **Numeric Types**:
 # - **int**: Integer values, represents whole numbers.
