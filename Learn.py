@@ -137,3 +137,4 @@ greet("Alice")  # Interpreter runs this line immediately and outputs: "Hello, Al
 # Imaginary Dog
 print("O----")
 print(" ||||")
+print(45)
