@@ -5,3 +5,4 @@ print(age)
 distance = (input("How much distance you covered in km?  "))
 distance_covered= (1000 * int(distance))
 print (distance_covered)
+#kg --> lbs
