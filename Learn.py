@@ -152,6 +152,21 @@ weight_lb = (2.2* int(weight_kg))
 print(weight_lb)
 class Rectangle:
     rectangle_lenght=input("Your rectangle lenght is : ")
-    rectangle_width=input("Your rectangle width is :" )
+    rectancourse = ("This is python code")
+price=44.6
+#methods
+print(len(course))
+print(len(course))
+print(course.upper())
+print(course.lower())
+print(course.find("is"))
+
+print(course.replace("is","is best"))
+#operator
+print('is' in course)
+#old string method
+print(course, "price is ",[price],' USD')
+#formatted strings
+print(f'{course}  price is [{price}] USD')gle_width=input("Your rectangle width is :" )
     rectangle_area= (int(rectangle_lenght)*int(rectangle_width))
     print("Your rectangle area is : ",rectangle_area)
