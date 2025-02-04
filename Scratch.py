@@ -9,3 +9,8 @@ print (distance_covered)
 weight_kg = (input("what is your weight in kg?  "))
 weight_lb = (2.2* int(weight_kg))
 print(weight_lb)
+class Rectangle:
+    rectangle_lenght=input("Your rectangle lenght is : ")
+    rectangle_width=input("Your rectangle width is :" )
+    rectangle_area= (int(rectangle_lenght)*int(rectangle_width))
+    print("Your rectangle area is : ",rectangle_area)
