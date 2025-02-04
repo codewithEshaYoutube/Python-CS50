@@ -134,3 +134,6 @@ greet("Alice")  # Interpreter runs this line immediately and outputs: "Hello, Al
 
 # In comparison, with a compiler (like C), you would write the code, compile it
 # only see output after running the compiled executable.
+# Imaginary Dog
+print("O----")
+print(" ||||")
