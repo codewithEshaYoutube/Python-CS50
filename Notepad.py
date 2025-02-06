@@ -4,3 +4,4 @@ def count_unique_letters(s: str) -> int:
 
     # Use a set to find unique letters
     unique_letters = set(s)
+  
