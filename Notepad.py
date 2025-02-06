@@ -4,6 +4,4 @@ class Solution:
             return [needle]
         else:
             return -1
-    haystack = "sadbutsad"
-    needle = "sad"
- 
+    #
