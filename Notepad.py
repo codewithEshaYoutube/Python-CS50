@@ -1,1 +1,1 @@
-#this is thre way you sgould tr it in the basic bang is
+#this is thre way you sgould tr it in the basic bang
