@@ -89,4 +89,4 @@ print(squares)  # Output: [1, 4, 9, ..., 100]
 # Problem: Sort a list of tuples by the second value
 data = [("apple", 3), ("banana", 1), ("orange", 2)]
 data.sort(key=lambda x: x[1])
-print(data)  # Output: [('banana', 1), ('orange', 2), ('apple', 3)]
+print(data)  # Output: [('banana', 1), ('orange', 2), ('apple', 3
