@@ -17,7 +17,7 @@ course_name= "python for data analytics"
 def print_student_details():
     print(f"Institute Name:{instiute_name}")
     print(f"Student Name:{student_name}")
-    print(f"student_age:{student_age}")
+    print(f"Student_age:{student_age}")
     print(f"Understanding level:{level}")
     print(f"Course Name:{course_name}")
- print_student_details()
+print(print_student_details())
