@@ -10,7 +10,5 @@ student is Ali is new student
 his age is 19 years
 understanding level is beginner
 course name is python for data analytics 
-
-
-
 '''
+#variables-> function ->studentdetails-> call
