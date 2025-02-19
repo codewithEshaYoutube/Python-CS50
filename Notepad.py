@@ -7,7 +7,7 @@ his age is 19 years
 understanding level is beginner
 course name is python for data analytics 
 '''
-#variables-> function ->studentdetails-> call
+#variables-> function->studentdetails-> call
 instiute_name = "corvit"
 student_name = "Ali"
 student_age= 12
