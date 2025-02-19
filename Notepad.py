@@ -12,3 +12,11 @@ understanding level is beginner
 course name is python for data analytics 
 '''
 #variables-> function ->studentdetails-> call
+instiute_name = "corvit"
+student_name = "Ali"
+student_age= 12
+level = "beginner"
+student_is_new = True
+course_name= "python for data analytics"
+def print_student_details():
+    
