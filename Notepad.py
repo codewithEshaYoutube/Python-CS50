@@ -2,7 +2,7 @@
 #VARIABLE EXCERCISE
 '''
 institute is corvit
-student is Ali is new student 
+Student is Ali is new student
 his age is 19 years
 understanding level is beginner
 course name is python for data analytics 
