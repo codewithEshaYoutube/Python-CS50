@@ -20,3 +20,4 @@ def print_student_details():
     print(f"student_age:{student_age}")
     print(f"Understanding level:{level}")
     print(f"Course Name:{course_name}")
+ print_student_details()
