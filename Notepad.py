@@ -1,8 +1,4 @@
-user_name = input("what is your name?  ")
 
-def print_user_name():
-    print(f"Hello {user_name}😊")
-print(print_user_name())
 #VARIABLE EXCERCISE
 '''
 institute is corvit
@@ -19,4 +15,8 @@ level = "beginner"
 student_is_new = True
 course_name= "python for data analytics"
 def print_student_details():
-    
+    print(f"Institute Name:{instiute_name}")
+    print(f"Student Name:{student_name}")
+    print(f"student_age:{student_age}")
+    print(f"Understanding level:{level}")
+    print(f"Course Name:{course_name}")
