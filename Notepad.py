@@ -21,4 +21,3 @@ def print_student_details():
     print(f"Understanding level:{level}")
     print(f"Course Name:{course_name}")
 print(print_student_details())
-#Conditional Statement
