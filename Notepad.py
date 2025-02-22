@@ -21,4 +21,4 @@ Step | Current Num | Candidate Before | Count Before | Action | New Candidate | 
 📌 Final Candidate = 6
 
 Final Majority Element: -1
-"""  
+"""
