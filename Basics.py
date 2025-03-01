@@ -145,9 +145,7 @@ for i in nums2:
     for j in range(i) :
         output+="x"
     print(output)
-#lists
-names=["esh","sam","bob","mosh"]
-print(names)
+
 #if_statements
 """
 weather is hot outside
@@ -205,3 +203,11 @@ or: atleast one
 not: inverse
 
 """
+#lists
+names=["esh","sam","bob","mosh"]
+names[0]="esha"
+print(names[0:3])
+print(names[-1])
+print(names[-2])
+print(names[0])
+print(names)
