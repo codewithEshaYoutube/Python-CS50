@@ -310,3 +310,17 @@ output=""
 
 output="".join(Numbers_in_mapping.get(ch,"!")for ch in nums)
 print (output)
+"""
+emoji converter
+"""
+
+message=input("> ")
+words=message.split(" ")
+emoji_mapping={
+        ":)" :"😊",
+        ":(" :"😢",
+        ";)" : "😉"
+}
+output=" "
+output=" ".join(emoji_mapping.get(word,word)for word in words)
+print (output)
