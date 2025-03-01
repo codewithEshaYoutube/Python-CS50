@@ -88,9 +88,9 @@ while True:
         print("car is stopped...")
     elif command == "help":
         print("""
-        start: to start the car 
-        stop: to start car 
-        quit: to quit the game
+start: to start the car 
+stop: to start car 
+quit: to quit the game
         """)
     elif command=="quit":
         print("your game is ended...")
