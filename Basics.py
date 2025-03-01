@@ -70,11 +70,11 @@ while guess_count<guess_limit:
     if guess == secret_num:
         print("You won")
         break
-    if guess_count >= 3:
-        print("you lost all chances")
+    if guess_count <= 2:
+        print("You failed,Try again")
 
     else:
-        print("You failed,Try again")
+        print("You lost all chances")
 
 
 
