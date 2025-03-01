@@ -138,4 +138,10 @@ for i in range(3): # outer loop
 nums=[5,2,5,2,2]
 for x in nums:
         print((x)*" x") # using built in funcitons
+nums2=[5,2,5,2,2]
+for y in nums2:
+    output=""
+    for z in range(y) :
+        output+="x"
+print(output)
 
