@@ -1,19 +1,17 @@
-'''
-Phone number is requested and give them nums in words
-'''
-nums=input("Enter your phone number  ")
-Numbers_in_mapping={
-        1:"one",
-        "two":2,
-        "three":3,
-        "four":4,
-        "five":5,
-        "Six":6,
-        "seven":7,
-        "eight":8,
-        "nine":9,
-        "zero":0,
+nums = input("Enter your phone number: ")
+
+Numbers_in_mapping = {
+    "1": "one",
+    "2": "two",
+    "3": "three",
+    "4": "four",
+    "5": "five",
+    "6": "six",
+    "7": "seven",
+    "8": "eight",
+    "9": "nine",
+    "0": "zero"
 }
-output=""
-for ch in nums:
-        output+=Numbers_in_mapping.get(ch,"!")
+
+output = " ".join(Numbers_in_mapping.get(ch, "!") for ch in nums)
+print(output)
