@@ -128,5 +128,10 @@ for price in prices:
     total+=price                                    #total=total+price(augmented operator)
 print(f"Total of all prices are {total}")
 
-
+"""
+nested loops
+"""
+for i in range(3):
+    for j  in range (2):
+        print(f"{i},{j}")
 
