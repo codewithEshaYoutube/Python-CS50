@@ -3,10 +3,11 @@ emoji converter
 """
 
 message=input("> ")
-word=message.split(" ")
+words=message.split(" ")
 emoji_mapping={
         ":)" :"😊",
         ":(" :"😢",
         ";)" : "😉"
 }
-print(word)
+output=" "
+output=" ".join(emoji_mapping.get(word,word)for word in words)
