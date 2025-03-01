@@ -1,4 +1,4 @@
- # This is a basic Python program
+# This is a basic Python program
 
 # 1. Print statement
 print("Hello, World!")
@@ -114,6 +114,9 @@ quit: to quit the game
 no. of iterations are known 
 iterate over list tuple  strings
 """
-for i in ("python"):
-    print(i)
+for z in "python":
+    print(f'letter is {z}')
+
+for i in range(25):
+    print(f'number is {i}')
 
