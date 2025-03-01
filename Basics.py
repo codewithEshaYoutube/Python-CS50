@@ -115,8 +115,11 @@ no. of iterations are known
 iterate over list tuple  strings
 """
 for z in "python":
-    print(f'letter is {z}')
+    print(f'letter is {z}') # dynamically implement variable
 
 for i in range(25):
-    print(f'number is {i}')
+    print(f'number is {i}') # implement range function
+
+#example list
+
 
