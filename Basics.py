@@ -75,6 +75,11 @@ while guess_count<guess_limit:
 
     else:
         print("You lost all chances")
+#  while conditon
+"""
+Building car game:simulation of car game
+"""
+
 
 
 
