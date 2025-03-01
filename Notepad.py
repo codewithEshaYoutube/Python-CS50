@@ -1,26 +1,19 @@
-#Tuple,Immutable denoted by ()
-coordinates=(1,2,3)
 '''
-x=coordinates[0]
-y=coordinates[1]
-z=coordinates[2]
-
+Phone number is requested and give them nums in words
 '''
-x,y,z=coordinates #unpacking
-print (y)
-'''
-Dictionaries: Key value pair, denoted by {}
-Name:Esha
-GMail:tariqeesha321@gmail.com
-phonenumber:112434344
-'''
-customer={
-        "name":"Esha",
-        "age": 19,
-        "class": "12th",
-        "profession": "software Engineer",
-        "is_verified":True
+nums=input("Enter your phone number  ")
+Numbers_in_mapping={
+        1:"one",
+        "two":2,
+        "three":3,
+        "four":4,
+        "five":5,
+        "Six":6,
+        "seven":7,
+        "eight":8,
+        "nine":9,
+        "zero":0,
 }
-customer["age"]=20
-customer["Smart_student"]= True
-print(customer)
+output=""
+for ch in nums:
+        output+=Numbers_in_mapping.get(ch,"!")
