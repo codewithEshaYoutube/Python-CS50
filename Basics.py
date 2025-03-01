@@ -60,17 +60,19 @@ while e <=10:
     print("*"*e)
     e+=1
 print('done')
-
 #guess game using while loop
 secret_num=7
 guess_count=0
-guess_limit=4
+guess_limit=3
 while guess_count<guess_limit:
     guess=int(input("Guess the num:  "))
     guess_count+=1
     if guess == secret_num:
         print("You won")
         break
+    if guess_count >= 3:
+        print("you lost all chances")
+
     else:
         print("You failed,Try again")
 
