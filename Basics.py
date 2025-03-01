@@ -50,3 +50,4 @@ fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
 #while loop
+while condition
