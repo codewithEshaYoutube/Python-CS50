@@ -60,3 +60,5 @@ while e <=10:
     print("*"*e)
     e+=1
 print('done')
+
+#guess game using while loop
