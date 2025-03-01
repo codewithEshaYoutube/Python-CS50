@@ -109,5 +109,11 @@ quit: to quit the game
     else:
        print("Sorry I don't Understand")
 
-
+#for loop
+"""
+no. of iterations are known 
+iterate over list tuple  strings
+"""
+for i in ("python"):
+    print(i)
 
