@@ -49,3 +49,4 @@ for i in range(5):
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
+#while loop
