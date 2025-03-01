@@ -131,7 +131,8 @@ print(f"Total of all prices are {total}")
 """
 nested loops
 """
-for i in range(3):
-    for j  in range (2):
+for i in range(3): # outer loop
+    for j  in range (2): #inner loop
         print(f"({i},{j})")
+#Challange
 
