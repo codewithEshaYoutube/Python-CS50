@@ -135,4 +135,7 @@ for i in range(3): # outer loop
     for j  in range (2): #inner loop
         print(f"({i},{j})")
 #Challange
+nums=[5,2,5,2,2]
+for x in nums:
+        print((x)*" x") # using built in funcitons
 
