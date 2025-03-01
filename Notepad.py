@@ -13,8 +13,7 @@ matrix=[
         [7,4,6]
 
 ]
-matrix[0][2]=12 #modification
-#accesing
-print(matrix[0][2])
-print(matrix[2][1])
-print(matrix[1][2])
+
+for x in matrix:
+        for y in x:
+                print (y)
