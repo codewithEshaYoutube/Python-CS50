@@ -243,3 +243,49 @@ print(matrix[1][2])
 for x in matrix:
         for y in x:
                 print (y)
+
+
+numbers=[1,4,55,6,78,43,66,77,6]
+(numbers.append(22))
+print (numbers)
+(numbers.insert(2,7))
+print (numbers)
+(numbers.sort())
+(numbers.reverse())
+print (numbers)
+#remove duplicates
+
+
+numbers=[1,4,55,6,78,43,66,77,6]
+unique=[]
+for i in numbers:
+        if i not in unique:
+                unique.append(i)
+
+print(unique)
+#Tuple,Immutable denoted by ()
+coordinates=(1,2,3)
+'''
+x=coordinates[0]
+y=coordinates[1]
+z=coordinates[2]
+
+'''
+x,y,z=coordinates #unpacking
+print (y)
+'''
+Dictionaries: Key value pair, denoted by {}
+Name:Esha
+GMail:tariqeesha321@gmail.com
+phonenumber:112434344
+'''
+customer={
+        "name":"Esha",
+        "age": 19,
+        "class": "12th",
+        "profession": "software Engineer",
+        "is_verified":True
+}
+customer["age"]=20
+customer["Smart_student"]= True
+print(customer)
