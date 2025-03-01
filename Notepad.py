@@ -1,9 +1,20 @@
+"""
+2-dimentional list are matrices in pythin
 
-#Challange to find largest num in list
-nums=[1,5,6,7,8,11,14,78,3,1,33,27]
-max=nums[0]
+matrix in maths=[ 567
+                  577
+                  555
+                  ]
+"""
 
-for num in nums:
-        if num>max:
-                max=num
-print (max)
+matrix=[
+        [5,6,7],
+        [1,2,3],
+        [7,4,6]
+
+]
+matrix[0][2]=12 #modification
+#accesing
+print(matrix[0][2])
+print(matrix[2][1])
+print(matrix[1][2])
