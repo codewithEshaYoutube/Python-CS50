@@ -55,3 +55,8 @@ while x <=40:
     print (x)
     x+=4
 print('done')
+e=1
+while e <=10:
+    print("*"*e)
+    e+=1
+print('done')
