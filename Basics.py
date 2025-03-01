@@ -77,15 +77,26 @@ while guess_count<guess_limit:
         print("You lost all chances")
 #  while conditon
 """
-Building car game:simulation of car game
+1.Building car game:simulation of car game
+2.if car istaretd earlier dont dtart again
+3.if car i s stopped earlier don tstop again
 """
 command = ""
+started = False
 while True:
     command=input("-->> ")
     if command == "start":
-        print("car is started...")
+        if started:
+            print("its already started")
+        else:
+            started=True
+            print("car is started...")
     elif command == "stop":
-        print("car is stopped...")
+        if  not started:
+            print("its already stopped")
+        else:
+            started=False
+            print("car is stopped...")
     elif command == "help":
         print("""
 start: to start the car 
@@ -97,6 +108,6 @@ quit: to quit the game
         break
     else:
        print("Sorry I don't Understand")
- 
+
 
 
