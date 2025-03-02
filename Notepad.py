@@ -6,3 +6,4 @@ def student_detail():
         print(f"hi there {name}")#parameter
         print("age is 19")
 print (student_detail())
+print (student_detail())
