@@ -324,3 +324,13 @@ emoji_mapping={
 output=" "
 output=" ".join(emoji_mapping.get(word,word)for word in words)
 print (output)
+"""
+Defining functions
+"""
+
+def student_detail():
+        name = input("whatis you name? ")
+        print(f"hi there {name}")#parameter
+        print("age is 19")
+print (student_detail())
+print (student_detail())
