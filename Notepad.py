@@ -14,7 +14,7 @@ def main():
     # More variables is good times when first learning
     mars_weight = earth_weight * MARS_MULTIPLE
 
-    # Note the string concatenation!
+    # Note the string concatenation!  
     print('The equivalent weight on Mars: ' + str(mars_weight))
 
 if __name__ == '__main__':
