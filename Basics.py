@@ -360,3 +360,9 @@ Return statement
 def square(number):
     return (f"The square of number is {number*number}")
 print(square(3))
+#Exception Handling
+try:
+    user=int(input("what is your age "))
+    print(user)
+except ValueError:
+    print("Invalid Value,Value should be a Number")
