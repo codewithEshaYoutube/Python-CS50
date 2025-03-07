@@ -1,5 +1,6 @@
-def greet(self,name ):
-    print(f"HellO{name}")
+def greet(name ):
+    print(f"HellO {name}")
     print("Welcome to class")
 print("Start")
 greet("Esha")
+print ("Finish")
