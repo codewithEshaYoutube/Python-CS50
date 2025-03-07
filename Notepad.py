@@ -4,5 +4,8 @@ def greet(name,last_name ):
 print("Start")
 greet("Esha","Tariq")
 print ("Finish")
-#Argument are pieces of information that is given to function
-#Parameter defined in function 
+#Parameter defined in function
+"""
+Argument are pieces of information that is given to function
+Positonal arguments:no keyword first define this 
+"""
