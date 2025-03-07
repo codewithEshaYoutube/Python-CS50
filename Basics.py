@@ -337,3 +337,7 @@ def student_detail():
         print("age is 19")
 print (student_detail())
 print (student_detail())
+ """
+ parameters
+ """
+ def greet(name,class):
