@@ -4,3 +4,5 @@ def greet(name ):
 print("Start")
 greet("Esha")
 print ("Finish")
+#Argument are pieces of information that is given to function
+#Parameter defined in function
