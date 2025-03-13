@@ -181,12 +181,7 @@ if good_credit is True:
         print((down_payment)* float(0.1))
 else:
         print("they need to put down 20%")
-        print((down_payment) * float(0.2))
-print (f" Down payment is : ${down_payment}")
-"""  
-logical operators
-Example 1: if employee has high income and credit than eligible for loan
-"""
+
 high_income = True
 high_credit = False
 is_adult = True
