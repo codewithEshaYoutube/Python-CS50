@@ -193,6 +193,11 @@ is_adult = True
 if high_income and high_credit:
     print("Employee is eligible")
 elif not is_adult:
+
+
+
+
+    
     print("Candidate is underage")
 
 else:
