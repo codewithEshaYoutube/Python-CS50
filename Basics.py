@@ -349,14 +349,7 @@ greet("Esha", "Tariq")
 greet("Esha", "Tariq")
 print("Finish")
 # Parameter defined in function
-"""
-Argument are pieces of information that is given to function
-Positonal arguments:no keyword first define this 
-Keyword argument: defined with keyword
-"""
-"""
-Return statement
-"""
+
 def square(number):
     return (f"The square of number is {number*number}")
 print(square(3))
