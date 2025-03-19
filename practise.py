@@ -6,4 +6,4 @@ def main():
     print(f"your weight on mars is{mars_weight} ")
 
 if __name__=="__main__":
-    main()
+    main()  
