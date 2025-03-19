@@ -192,7 +192,7 @@ high_credit = False
 is_adult = True
 if high_income and high_credit:
     print("Employee is eligible")
-elif not is_adult:         
+elif not is_adult:
     print("Candidate is underage")
 
 else:
@@ -366,3 +366,4 @@ try:
     print(user)
 except ValueError:
     print("Invalid Value,Value should be a Number")
+#lets learn more
