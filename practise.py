@@ -5,4 +5,5 @@ def main():
     mars_weight=(mars_multiple*earth_weight)
     print(f"your weight on mars is{mars_weight} ")
 
-if name:
+if name__main__:
+main()
