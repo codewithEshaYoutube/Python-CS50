@@ -11,4 +11,4 @@ if __name__=="__main__":
 # defining function
  #typecasting
  #concatenation
- #
+ # formula defining
