@@ -9,7 +9,7 @@ def main():
 if __name__=="__main__":
     main()
  #defining function
- #input taking fro, user
+ #input taking from user
  #typecasting
  #concatenation
  #formula defining
