@@ -13,4 +13,4 @@ if __name__=="__main__":
  #typecasting
  #concatenation
  #formula defining
- #recalling  
+ #recalling
