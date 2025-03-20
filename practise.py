@@ -9,7 +9,8 @@ def main():
 if __name__=="__main__":
     main()
  #defining function
+ #input
  #typecasting
  #concatenation
  #formula defining
- #
+ #recalling
