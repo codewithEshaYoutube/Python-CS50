@@ -8,7 +8,7 @@ def main():
 
 if __name__=="__main__":
     main()
-# defining function
+ #defining function
  #typecasting
  #concatenation
  # formula defining
