@@ -3,5 +3,6 @@ class Solution:
         yes=input(" ")
         hash_map={"a":"dog", "b":"cat"
         }
-        print(a:b)
-    wordPattern()
+        print(f"")
+
+    print wordPattern()
