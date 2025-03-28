@@ -75,3 +75,31 @@ if __name__ == "__main__":
     print(f"⚙️ System Info: {get_system_info()}")
     print(f"🎲 Random Number (1-10): {generate_random_number(1, 10)}")
 
+# 🏁 5️⃣ Demonstrating Different Import Methods
+# -----------------------------
+
+# ✅ 1. Importing the entire module
+print("\n✅ 1. Importing the entire module")
+import modularity  # Import itself (for demonstration)
+print(f"🔢 Addition (10+5): {modularity.add(10, 5)}")
+print(f"🔤 Reverse String ('Python'): {modularity.reverse_string('Python')}")
+
+# ✅ 2. Importing specific functions
+print("\n✅ 2. Importing specific functions")
+from modularity import add, reverse_string
+print(f"🔢 Addition (4+6): {add(4, 6)}")
+print(f"🔤 Reverse String ('world'): {reverse_string('world')}")
+
+# ✅ 3. Importing with an alias
+print("\n✅ 3. Importing with an alias")
+import modularity as mod
+print(f"🔢 Subtraction (10-4): {mod.subtract(10, 4)}")
+
+# ✅ 4. Running the module directly
+if __name__ == "__main__":
+    print("\n📌 Running modularity.py as a standalone script!")
+    print(f"📂 File Writing Example: Saving 'Hello Modular World!' to test.txt")
+    write_to_file("test.txt", "Hello Modular World!")
+    print(f"📂 File Reading Example: {read_from_file('test.txt')}")
+    print(f"⚙️ System Info: {get_system_info()}")
+    print(f"🎲 Random Number (1-10): {generate_random_number(1, 10)}")
