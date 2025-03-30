@@ -93,7 +93,7 @@ Example of Using a Python Package
 import numpy as np
 
 def add_numbers(a, b):
-   Adds two numbers using numpy 
+   Adds two numbers using numpy
     return np.add(a, b)
 
 if __name__ == "__main__":
@@ -107,4 +107,4 @@ Additional Resources
 - pip Documentation: https://pip.pypa.io/en/stable/
 - Python Packaging Guide: https://packaging.python.org/
 
-"""
+"""  
