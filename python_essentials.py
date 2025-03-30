@@ -92,21 +92,3 @@ print(squares)  # Output: [0, 1, 4, 9, 16]
 # 14. LAMBDA FUNCTIONS
 add = lambda a, b: a + b
 print(add(3, 5))  # Output: 8
-"""
-====================================
-# Best Tools for Python Project Visualization in PyCharm & VS Code
-====================================
-# PyCharm:
-# - Built-in Scientific Mode for interactive data visualization.
-# - Supports Jupyter Notebooks for better visualization.
-# - Integration with Matplotlib, Seaborn, and Plotly for graphs.
-# - Debugger with inline variable visualization.
-
-# VS Code:
-# - Jupyter Notebook extension for interactive coding.
-# - Python Interactive Window for real-time visualization.
-# - Built-in support for Matplotlib, Seaborn, and Pandas.
-# - Live Share for collaborative visualization.
-
-"""
-"""
