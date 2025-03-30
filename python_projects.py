@@ -1,5 +1,5 @@
 """
-Unique and Futuristic Python Project Ideas
+ Python Project Ideas to get hired
 
 These project ideas are designed to make your profile stand out for internships and research opportunities.
 Each project incorporates AI, automation, or cutting-edge technology.
