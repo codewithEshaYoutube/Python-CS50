@@ -90,7 +90,7 @@ squares = [x ** 2 for x in range(5)]
 print(squares)  # Output: [0, 1, 4, 9, 16]
 
 # 14. LAMBDA FUNCTIONS
-add = lambda a, b: a + b   
+add = lambda a, b: a + b
 print(add(3, 5))  # Output: 8
 """
 ====================================
@@ -107,6 +107,6 @@ print(add(3, 5))  # Output: 8
 # - Python Interactive Window for real-time visualization.
 # - Built-in support for Matplotlib, Seaborn, and Pandas.
 # - Live Share for collaborative visualization.
-
+     
 """
 
