@@ -76,4 +76,3 @@ except ZeroDivisionError:
 with open("sample.txt", "w") as file:
     file.write("This is a sample file.")
 
-print("Python Tutorial Completed!")
