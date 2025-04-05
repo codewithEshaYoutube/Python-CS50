@@ -1,1 +1,3 @@
-   
+from Problems_test import MARS_MULTIPLE
+
+MARS_MULTIPLE
