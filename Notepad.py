@@ -15,8 +15,4 @@ def main():
     # printing string concatenation (combining two strings into one)
     print("this is equivalent weight on Mars" + str(mars_mass))
 
-  
-if __name__ == "__main__":
-    main()
-
 
