@@ -14,3 +14,7 @@ class Cat(Mammal):
 dog1=Dog()
 dog1.hairs()
 
+
+
+
+
