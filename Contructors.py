@@ -17,6 +17,7 @@ print(pointer1.r)
 class Person:
     def __init__(self,name,age):
         self.name=name
+        self.age = age
     def talk(self):
         print("I am talking to you")
 person1=Person("esha",12)
