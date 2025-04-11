@@ -1,9 +1,9 @@
 class Point:
     def draw(self):
-        print("draw")
+        print("draw the pen ")
     def move(self):
-        print("move")
+        print("move in right")
 
 
-point1=Point
-point1.draw(self)
+point1 = Point()
+point1.move()
