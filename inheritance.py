@@ -1,8 +1,7 @@
 #whatevr w put in parent it child will get own methods and parent methods too
 class Mammal:
-    def hairs(self,name,age):
-        self.name= name
-        self.age= age
+    def hairs(self):
+
         print("have hairs")
 class Dog(Mammal):
     def annoying(self):
@@ -15,5 +14,3 @@ class Cat(Mammal):
 dog1=Dog()
 dog1.hairs()
 
-dog1.name="petty"
-dog1.age=12
