@@ -10,3 +10,6 @@ point1.x= 34
 point1.y= 55
 point1.move()
 print(point1.x)
+point2=Point()
+point2.u=78
+print(point2.u)
