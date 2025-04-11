@@ -22,5 +22,5 @@ class Person:
 person1=Person("esha",12)
 person1.talk()
 print (person1.name)
-print (person1.name)
+print (person1.age)
 
