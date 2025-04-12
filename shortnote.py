@@ -1,4 +1,4 @@
-# 1. Variables and Data Types
+ # 1. Variables and Data Types
 # Variables store values, and Python automatically determines their type.
 x = 10          # Integer
 y = "Hello!"    # String
