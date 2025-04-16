@@ -5,7 +5,7 @@
 # Here, we'll create a simple decorator that logs function calls.
 
 def log_decorator(func):
-    def wrapper(*args, **kwargs):
+     def wrapper(*args, **kwargs):
         print(f"Calling function {func.__name__} with arguments {args} and keyword arguments {kwargs}")
         result = func(*args, **kwargs)  # Call the decorated function
         print(f"Function {func.__name__} returned {result}")
