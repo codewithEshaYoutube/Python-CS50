@@ -1,5 +1,5 @@
    # defining constant as mars multiple
-MARS_MULTIPLE = 0.378
+   MARS_MULTIPLE = 0.378
 
 
 def main():
