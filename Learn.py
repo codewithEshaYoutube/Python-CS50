@@ -154,6 +154,27 @@ class Rectangle:
     rectangle_lenght=input("Your rectangle lenght is : ")
     rectancourse = ("This is python code")
 price=44.6
+my_set={1,3,4,5,6,2,2,2,5,6}
+my_set.add(15)
+print(my_set)
+
+
+# many datatypes
+my_set2={"Sam",8,True,78.8}
+print(my_set2)
+# remove duplicate
+my_set3={1,2,3,3,3,4,4,5}
+print(my_set3)
+#making set from list ( inbuilt)
+my_set4=set([3,4,5,5,6,23])
+print(my_set4)
+# remove element
+my_set4.pop()
+print(my_set4)
+# clearing 
+my_set4.clear()
+print(my_set4)
+
 #methods
 print(len(course))
 print(len(course))
