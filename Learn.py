@@ -7,6 +7,17 @@ name = input("what's your name")
 print("hello", name)
 
 #variable is name 
+setx={"blue","pink","red"}
+sety={"yellow","white","blue","Purple","red"}
+# orignal
+print("orignal elements are:")
+print(setx)
+print(sety)
+# intersection on sets
+print('The intersection for setx and sety is')
+setz=setx.intersection(sety)
+
+print(setz)
 
 
 patient_name = "john"
