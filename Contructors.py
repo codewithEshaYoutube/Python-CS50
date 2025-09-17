@@ -23,6 +23,25 @@ class Person:
 person1=Person("esha",12)
 person1.talk()
 print (person1.name)
+
+class fruit:
+  # contructors
+  def __init__(self,name,color):
+    self.name=name
+    self.color=color
+  # methods
+  def intro(self):
+    print("Hello I am ",self.name)
+  # object creation
+apple=fruit("apple","red")
+apple.intro()
+#enumerate method
+l1=["orange","banana","grapes"]
+obj1=enumerate(l1)
+print(list(enumerate(l1)))
+
+
+
 print (person1.age)
 
 
